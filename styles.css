@@ -1,0 +1,37 @@
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+}
+body > a {
+  width: 50%;
+  height: 50%;
+  text-decoration: none;
+}
+
+body > a > h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: lowercase;
+  text-align: center;
+  color: white;
+}
+
+#about{
+  background-color: #ffcc80;
+
+}
+#portfolio{
+  background-color: #809fff;
+}
+#blank1{
+  background-color: #ff8080;
+}
+#blank2{
+  background-color: #80ff80;
+}
