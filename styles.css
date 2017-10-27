@@ -56,7 +56,7 @@ h3 {
 
 .main_header h1 {
 	font-family: 'Open Sans', Verdana, Geneva, sans-serif;
-	font-size: x-large;
+	font-size: 24px;
 	font-weight: bold;
 	font-style: normal;
 	font-variant: normal;
@@ -131,7 +131,7 @@ h3 {
 }
 
 .developer_projects img:hover {
-    box-shadow: 4px rgba(255, 229, 204, 0.5);
+    box-shadow: 5px 5px 10px rgba(102, 49, 0, 0.4);
 }
 
 /*graphic projects section styles*/
@@ -153,6 +153,11 @@ h3 {
     border-radius: 4px;
     padding: 5px;
 }
+
+.design_projects img:hover {
+    box-shadow: 5px 5px 15px rgba(102, 49, 0, 0.5);
+}
+
 .exhibition_display, .poster, .branding {
 	float: left;
 	width: 200px;
