@@ -2,21 +2,142 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sanjay's Portfolio Site</title>
+    <title>sanjayvpersaud</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <a href="#" id="about">
-      <h1>about</h1>
-    </a>
-    <a href="#" id="portfolio">
-      <h1>contact</h1>
-    </a>
-    <a href="#" id="blank1">
-      <h1>graphic design</h1>
-    </a>
-    <a href="#" id="blank2">
-      <h1>web design</h1>
-    </a>
+    <div class="container">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#developer">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <section class="main_header">
+        <img src="images/sanjay_portrait.jpg" alt="portrait" width="180px" height="200px">
+        <h1>sanjayPersaud {designerDeveloper}</h1>
+      </section>
+      <section class="about">
+        <h3 id="about">About</h3>
+        <div class="about_me">
+          <p>I am a curious, passionate, risk taker, and I am excited about uniting art, design, and technology to solve real world problems.</p>
+          <p>After earning my first Bachelor’s degree, I embarked on a successful career as a paralegal,
+          as I had wished to become a lawyer.  But after working in corporate immigration law for years,
+          I still did not know what I wished to do.  I had long since decided against becoming a lawyer.
+          Then a few years ago, I discovered art and design, so I decided to go back to school to study
+          Graphic Design and Studio Arts. </p>
+          <p>This May, I earned Bachelor degrees in Graphic Design and Studio Art.  With no previous background in Art or Design, I initially struggled,
+          but my curiosity, passion, love of learning, and perseverance held me in good stead.  Then in my junior year, I took a course in web design, and I fell in love.
+          But my school offered no classes in the modern languages and technologies of the web, so soon after graduation, I enrolled in General Assembly’s 13 week Web Development Immersive Bootcamp,
+          which I successfully completed in September.</p>
+          <p>I am proficient in the Adobe Design Suite, and I have strong knowledge of JavaScript, AngularJS, MEAN Stack, Ruby, Ruby on Rails.</p>
+        </div>
+      </section>
+      <section class="developer_projects clearfix">
+        <h3 id="developer">Developer Projects</h1>
+        <div class="developer_projects2">
+          <div class="project1">
+            <a target="_blank" href="https://sanjaywallah.github.io/tower-of-hanoi/">
+              <img src="images/tower.png" alt="tower of hanoi" width="200px" height="200px">
+            </a>
+            <p>This Tower of Hanoi game is implemented in JavaScript.  This well-known math game consists of three rods and a number of disks of different sizes,
+            which can slide onto any rod.  The objective of the game is to move the entire stack to another rod according to a simple set of rules.
+            </p>
+          </div>
+          <div class="project2">
+            <a target="_blank" href="https://my-cheerups-app.herokuapp.com/users/sign_in">
+              <img src="images/cheerups.png" alt="cheerups" width="200px" height="200px">
+            </a>
+            <p>This Ruby on Rails site allows users to create, share, and up vote Cheer Ups.  The site provides full CRUD functionality,
+            so users can create, read, update, and delete their own Cheer Ups.  The site also employs various validations and authentication
+            processes to prevent malicious actions.
+            </p>
+          </div>
+          <div class="project3">
+            <a target="_blank" href="https://jacobg1.github.io/real_memes/#/memes">
+              <img src="images/memes.png" alt="real memes" width="200px" height="200px">
+            </a>
+            <p>This site is built on Rails and AngularJS.  The site allows users to select from a list of available memes or
+            create their own.  Users can comment on memes, search for memes. generate random memes, and view a history of
+            the memes they created.  The site provides full CRUD functionality for memes and comments.</p>
+          </div>
+        </div>
+      </section>
+      <section class="graphic_projects clearfix">
+        <h3>Graphic Design</h3>
+        <div class=" design_projects clearfix">
+          <div class="branding">
+            <a target="_blank" href="images/rea_branding.jpg">
+              <img src="images/rea_branding.jpg" alt="Rea Branding" width="200px" height="300px">
+            </a>
+            <P>Class Project.  Branding collateral for fictional juice company.</p>
+          </div>
+          <div class="exhibition_display">
+            <a target="_blank" href="images/exhibition_signage.jpg">
+              <img src="images/exhibition_signage.jpg" alt="exhibition display" width="200px" height="300px">
+            </a>
+            <p>Class Project.  Exhibition display and mockup.</p>
+          </div>
+          <div class="poster">
+            <a target"_blank" href="images/monk_poster.jpg">
+              <img src="images/monk_poster.jpg" alt="jazz poster" width="200px" height="300px">
+            </a>
+            <p>Class Project.  Poster design and mockup for radio station campaign.</p>
+          </div>
+          <div class="brochure">
+            <a target="_blank" href="images/mclaren_brochure.jpg">
+              <img src="images/mclaren_brochure.jpg" alt="mclaren brochure" width="300px" height="200px">
+            </a>
+            <p>Class Project.  McLaren Brochure Design.</p>
+          </div>
+          <div class="medallions">
+            <a target"_blank" href="images/medallions.jpg">
+              <img src="images/medallions.jpg" alt="medallions" width="300px" height="200px">
+            </a>
+            <p>Real world project involving the major cleanup and redesign</br>of a series of 18 medallions.</p>
+          </div>
+        </div>
+      </section>
+      <section class="painting clearfix">
+        <h3>Recent Paintings</h3>
+        <div class="untitled clearfix">
+          <div class="untitled5">
+            <a target="_blank" href="images/untitled5.jpg">
+              <img src="images/untitled5.jpg" alt="" width="200px" height="200px">
+            </a>
+            <p>Untitled, Acrylic on Canvas.</p>
+          </div>
+          <div class="untitled6">
+            <a target="_blank" href="images/untitled6.jpg">
+              <img src="images/untitled6.jpg" alt="" width="200px" height="200px">
+            </a>
+            <p>Untitled, Acrylic on Canvas.</p>
+          </div>
+          <div class="untitled7">
+            <a target="_blank" href="images/untitled7.jpg">
+              <img src="images/untitled7.jpg" alt="" width="200px" height="200px">
+            </a>
+            <p>Untitled, Acrylic on Canvas.</p>
+          </div>
+          <div class="untitled8">
+            <a target="_blank" href="images/untitled8.jpg">
+              <img src="images/untitled8.jpg" alt="" width="200px" height="200px">
+            </a>
+            <p>Untitled, Acrylic on Canvas.</p>
+          </div>
+          <div class="untitled9">
+            <a target="_blank" href="images/untitled9.jpg">
+              <img src="images/untitled9.jpg" alt="" width="200px" height="200px">
+            </a>
+            <p>Untitled, Acrylic on Canvas.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact clearfix">
+        <h3 id="contact">Contact</h3>
+        <div class="contacts">
+          <p>email: sanjayvpersaud@gmail.com<br>
+            phone: 202.509.2198</p>
+        </div>
+      </section>
   </body>
 </html>
